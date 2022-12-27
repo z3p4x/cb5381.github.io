@@ -2,7 +2,7 @@
 	"callback": "https://ln.tips/.well-known/lnurlp/0x9951a6e40dc020e8",
 	"maxSendable": 1000000000,
 	"minSendable": 1000,
-	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"sebishi@betarho.me\"]]",
+	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"0x9951a6e40dc020e8@ln.tips\"]]",
 	"commentAllowed": 32,
 	"tag": "payRequest"
 }
