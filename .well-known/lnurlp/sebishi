@@ -1,13 +1,8 @@
 {
-	"status": "OK"
 	"callback": "https://getalby.com/lnurlp/sebishi/callback",
 	"maxSendable": 1000000000,
 	"minSendable": 1000,
-	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"sebishi@getalby.com\"]]",
+	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"sebishi@betarho.me\"]]",
 	"commentAllowed": 32,
-	"tag": "payRequest",
-	"payerData": {
-		"name": {"mandatory":false},
-		"email": {"mandatory":false}
-	}
+	"tag": "payRequest"
 }
