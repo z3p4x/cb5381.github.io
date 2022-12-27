@@ -1,8 +1,8 @@
 {
-	"callback": "https://ln.tips/.well-known/lnurlp/0x9951a6e40dc020e8",
+	"callback": "https://api.fountain.fm/v1/lnurlp/bitphant/pay",
 	"maxSendable": 1000000000,
 	"minSendable": 1000,
-	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"0x9951a6e40dc020e8@ln.tips\"]]",
+	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"sebishi@betarho.me\"]]",
 	"commentAllowed": 32,
 	"tag": "payRequest"
 }
