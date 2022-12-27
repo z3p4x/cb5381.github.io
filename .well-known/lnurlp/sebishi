@@ -1,8 +1,8 @@
 {
-	callback: LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHK66TWDAEXXCTWWESHXVPH6L27NY,
-	maxSendable: 1000000000,
-	minSendable: 1000,
-	metadata: "{["text/identifier",sebishi@www.betarho.me]}",
-	commentAllowed: 32,
-	tag: "payRequest"
+	"callback": "LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHK66TWDAEXXCTWWESHXVPH6L27NY",
+	"maxSendable": 1000000000,
+	"minSendable": 1000,
+	"metadata": "[[\"text/plain\",\"test\"],[\"text/identifier\",\"sebishi@www.betarho.me\"]]",
+	"commentAllowed": 32,
+	"tag": "payRequest"
 }
