@@ -3,7 +3,7 @@
   "tag": "payRequest",
   "commentAllowed": 255,
   "callback": "https://getalby.com/lnurlp/sebishi/callback",
-  "metadata": "[[\"text/identifier\", \"sebishi@getalby.com\"], [\"text/plain\", \"Sats for Sebishi\"]]",
+  "metadata": "[[\"text/identifier\", \"sebishi@getalby.com\"], [\"text/plain\", \"Sats\"]]",
   "minSendable": 1000,
   "maxSendable": 11000000000,
   "payerData": {
