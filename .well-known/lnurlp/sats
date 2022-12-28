@@ -1,17 +1,8 @@
 {
-  "status": "OK",
-  "tag": "payRequest",
-  "commentAllowed": 255,
-  "callback": "https://getalby.com/lnurlp/sebishi/callback",
-  "metadata": "[[\"text/identifier\", \"sebishi@getalby.com\"], [\"text/plain\", \"Sats for Sebishi\"]]",
+  "callback": "https://livingroomofsatoshi.com/api/v1/lnurl/payreq/a8d3abaa-0438-4f13-b68d-879776ff0d45",
+  "maxSendable": 100000000000,
   "minSendable": 1000,
-  "maxSendable": 11000000000,
-  "payerData": {
-    "name": {
-      "mandatory": false
-    },
-    "email": {
-      "mandatory": false
-    }
-  }
+  "metadata": "[[\"text/plain\",\"Pay to Wallet of Satoshi user: minorcanvas07\"],[\"text/identifier\",\"minorcanvas07@walletofsatoshi.com\"]]",
+  "commentAllowed": 32,
+  "tag": "payRequest"
 }
