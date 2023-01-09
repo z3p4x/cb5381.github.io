@@ -12,6 +12,18 @@
         <h1>βrho // Books</h1>
         <p>Here are books I read and their summaries!</p>
 
-        
+        <ul>
+            <?php
+              $dir = "booklist/"";
+              $files = scandir($dir);
+              foreach ($files as $file) {
+                if (strpos($file, ".html")) {
+                  $postName = str_replace(".html", "", $file);
+                  echo "<li><a href='".$dir.$file."'>'.$postName.'</a></li>";
+                }
+              }
+            ?>
+        </ul>
+
     </body>
 </html>
