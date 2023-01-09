@@ -12,18 +12,17 @@
         <h1>βrho // Books</h1>
         <p>Here are books I read and their summaries!</p>
 
-        <ul>
-            <?php
-              $dir = 'booklist/';
-              $files = scandir($dir);
-              foreach ($files as $file) {
-                if (strpos($file, '.html')) {
-                  $bookName = str_replace('.html', '', $file);
-                  echo "<li><a href='".$dir.$file."'>".$bookName."</a></li>";
-                }
-              }
-            ?>
-        </ul>
+        <ul id="books"></ul>
+        <script>
+            const booksDir = 'booklist/';
+            const books = [];
 
+            for (let i=0; i<books.length; i++) {
+                const book = books[i];
+                const li = document.createElement('li');
+                li.innerHTML = '<a href="' + booksDir + book + '.html">' + book + '</a>';
+                document.getElemetById('books').appendChild(li);
+            }
+        </script>
     </body>
 </html>
