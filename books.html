@@ -14,12 +14,12 @@
 
         <ul>
             <?php
-              $dir = "booklist/"";
+              $dir = 'booklist/';
               $files = scandir($dir);
               foreach ($files as $file) {
-                if (strpos($file, ".html")) {
-                  $postName = str_replace(".html", "", $file);
-                  echo "<li><a href='".$dir.$file."'>'.$postName.'</a></li>";
+                if (strpos($file, '.html')) {
+                  $bookName = str_replace('.html', '', $file);
+                  echo "<li><a href='".$dir.$file."'>".$bookName."</a></li>";
                 }
               }
             ?>
