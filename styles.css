@@ -4,6 +4,12 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
-a {
+a:link {
     color: #933da1;
+}
+a:visited {
+    color: #933da1;
+}
+a:hover,a:active {
+    color: #f7931a;
 }
